@@ -25,8 +25,7 @@ while True:
     contours, hierarchy = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
     for cnt in contours:
-        area = cv2.contourArea(cnt)
-        if area > 500:  # only consider sufficiently large objects
+        if cv2.contourArea(cnt) > 500:  # only consider sufficiently large objects
             x, y, w, h = cv2.boundingRect(cnt)
             cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
