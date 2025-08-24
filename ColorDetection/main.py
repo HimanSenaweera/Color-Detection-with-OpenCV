@@ -11,12 +11,9 @@ while True:
     ret, frame = capture.read()
 
     hsv_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-    #here we are using the Hue channel of the hsv colorspace
 
     # Mask for yellow
     mask = cv2.inRange(hsv_frame, lowerb=lower_limit, upperb=upper_limit)
-    
-    
     
     # Clean the mask using morphological operations
     kernel = np.ones((5, 5), np.uint8)
