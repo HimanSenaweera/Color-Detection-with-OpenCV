@@ -7,11 +7,11 @@ It demonstrates how to convert images to the **HSV color space**, create a color
 
 ## 🖼️ Example Output
 <p align="center">
-  <img src="mask.png" width="800">
+  <img src="images/mask.png" width="800">
 </p>
 
 <p align="center">
-  <img src="final.jpg" width="800">
+  <img src="images/final.jpg" width="800">
 </p>
 
 ## You can view the webcam results from here:  
@@ -29,11 +29,11 @@ A simple tool that detects faces in images and applies a blur to anonymize them.
 <table>
   <tr>
     <td style="text-align:center;">
-      <img src="original_image_1.jpg" alt="Original image" width="100%"/>
+      <img src="images/original_image_1.jpg" alt="Original image" width="100%"/>
       <div><strong>Original</strong></div>
     </td>
     <td style="text-align:center;">
-      <img src="original_image1_blurred.jpg" alt="Blurred image" width="100%"/>
+      <img src="images/original_image1_blurred.jpg" alt="Blurred image" width="100%"/>
       <div><strong>Blurred</strong></div>
     </td>
   </tr>
@@ -43,11 +43,11 @@ A simple tool that detects faces in images and applies a blur to anonymize them.
 <table>
   <tr>
     <td style="text-align:center;">
-      <img src="multiplefacesblurred.jpg" alt="Blurred image" width="100%"/>
+      <img src="images/multiplefacesblurred.jpg" alt="Blurred image" width="100%"/>
       <div><strong>Original</strong></div>
     </td>
     <td style="text-align:center;">
-      <img src="mulitplefaces.jpg" alt="Original image" width="100%"/>
+      <img src="images/mulitplefaces.jpg" alt="Original image" width="100%"/>
       <div><strong>Blurred</strong></div>
     </td>
   </tr>
