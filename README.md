@@ -18,7 +18,7 @@ It demonstrates how to convert images to the **HSV color space**, create a color
 👉 [Color detection videos](https://uniofmora-my.sharepoint.com/:f:/g/personal/senaweerasahd_22_uom_lk/Ev9sNREWwr1OlNuYvLPOk3sBkwR5IjE2caOAYS17AH_IBw?e=E8OVCU)
 
 ---
-# Face Anonymizer
+# 🧒 Face Anonymizer
 
 A simple tool that detects faces in images and applies a blur to anonymize them.  
 
