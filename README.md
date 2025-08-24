@@ -43,12 +43,12 @@ A simple tool that detects faces in images and applies a blur to anonymize them.
 <table>
   <tr>
     <td style="text-align:center;">
-      <img src="mulitplefaces.jpg" alt="Original image" width="100%"/>
-      <div><strong>Original</strong></div>
-    </td>
-    <td style="text-align:center;">
       <img src="multiplefacesblurred.jpg" alt="Blurred image" width="100%"/>
       <div><strong>Blurred</strong></div>
+    </td>
+    <td style="text-align:center;">
+      <img src="mulitplefaces.jpg" alt="Original image" width="100%"/>
+      <div><strong>Original</strong></div>
     </td>
   </tr>
 </table>
